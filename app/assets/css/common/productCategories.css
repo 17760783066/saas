@@ -1,0 +1,48 @@
+.ant-tree-switcher {
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+.tree {
+  box-sizing: border-box;
+  height: 50px;
+  cursor: default;
+  position: relative;
+  width: 600px;
+  display: flex;
+  padding: 5px 10px;
+  background: #f5f5f5;
+}
+
+.tree .level {
+  width: 25px;
+  height: 25px;
+  display: block;
+  border-radius: 12.5px;
+  margin-top: 8px;
+  background-color: #d9d9d9;
+  text-align: center;
+}
+
+.tree .icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.tree .detail {
+  -webkit-box-flex: .5;
+  flex: .5;
+  padding-left: 10px;
+}
+
+.tree .detail .ant-tag {
+  margin-left: 10px;
+}
+
+.tree .opt {
+  -webkit-box-flex: .5;
+  flex: .5;
+  text-align: right;
+  line-height: 40px;
+}

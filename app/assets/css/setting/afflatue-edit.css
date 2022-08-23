@@ -1,0 +1,37 @@
+.imgs-opt-block .img-card-edit {
+  float: left;
+  width: 140px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.imgs-opt-block .img-card-edit .ant-card-body {
+  padding: 0;
+}
+
+.imgs-opt-block .img-card-add {
+  float: left;
+  width: 140px;
+  height: 188px;
+  cursor: pointer;
+  background: #fafafa;
+}
+
+.imgs-opt-block .img-card-add .ant-card-cover .up-icon {
+  height: 138px;
+  width: 138px;
+  background: url("../../image/common/icon_upload_img.png") center no-repeat;
+  background-size: cover;
+}
+
+.imgs-opt-block .img-card-add .ant-card-body {
+  padding: 0;
+}
+
+.imgs-opt-block .img-card-add .ant-card-meta-description {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  padding: 4px 7px;
+}
